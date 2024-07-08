@@ -23,5 +23,6 @@ public class InputMismatchExceptionDemo {
             }
         }
         while(continueInput);
+        in.close();
     }
 }
