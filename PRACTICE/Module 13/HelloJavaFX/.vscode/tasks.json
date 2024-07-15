@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile",
+      "type": "shell",
+      "command": "javac",
+      "args": [
+        "--module-path",
+        "C:/javafx-sdk-11/lib",
+        "--add-modules",
+        "javafx.controls",
+        "MyJavaFX.java"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$javac"],
+      "detail": "Compiles a JavaFX application"
+    }
+  ]
+}
